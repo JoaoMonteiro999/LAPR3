@@ -1,0 +1,16 @@
+CREATE TABLE parcela (idParcela number(10) NOT NULL, designacao varchar2(255) NOT NULL, area number(19, 2) NOT NULL, PRIMARY KEY (idParcela));
+CREATE TABLE cultura (idCultura number(10) NOT NULL, tipoCultura varchar2(255) NOT NULL, quantidade number(19) NOT NULL, unidade varchar2(255) NOT NULL, dataInicio date NOT NULL, dataFim date, idParcela number(10) NOT NULL, plantaNomeVariedade varchar2(255) NOT NULL, PRIMARY KEY (idCultura));
+CREATE TABLE planta (nomeVariedade varchar2(255) NOT NULL, especie varchar2(255) NOT NULL, PRIMARY KEY (nomeVariedade));
+CREATE TABLE etapaCicloVegetativo (nomeVariedade varchar2(255) NOT NULL, etapa varchar2(255) NOT NULL, periodo varchar2(255) NOT NULL, PRIMARY KEY (nomeVariedade, etapa));
+CREATE TABLE colheitaPrevista (idCultura number(10) NOT NULL, semanaPrevista number(10) NOT NULL, quantidadePrevista varchar2(255) NOT NULL, unidade varchar2(255) NOT NULL, PRIMARY KEY (idCultura, semanaPrevista, quantidadePrevista));
+CREATE TABLE operacao (idOperacao number(10) NOT NULL, idCultura number(10) NOT NULL, tipoOperacao varchar2(255) NOT NULL, dataOperacao date NOT NULL, finalidade varchar2(255), quantidade number(19, 2), unidade varchar2(255), fatorDeProducao varchar2(255), PRIMARY KEY (idOperacao));
+CREATE TABLE fatorDeProducao (nomeComercial varchar2(255) NOT NULL, tipoFatorDeProducao varchar2(255) NOT NULL, formulacao varchar2(255) NOT NULL, PRIMARY KEY (nomeComercial));
+CREATE TABLE fichaTecnica (fatorDeProducao varchar2(255) NOT NULL, elemento varchar2(255) NOT NULL, quantidadeElemento number(19, 2) NOT NULL, unidadeElemento varchar2(255) NOT NULL, PRIMARY KEY (fatorDeProducao, elemento));
+ALTER TABLE cultura ADD CONSTRAINT FKcultura850567 FOREIGN KEY (idParcela) REFERENCES parcela (idParcela);
+ALTER TABLE cultura ADD CONSTRAINT FKcultura625692 FOREIGN KEY (plantaNomeVariedade) REFERENCES planta (nomeVariedade);
+ALTER TABLE etapaCicloVegetativo ADD CONSTRAINT FKetapaCiclo967163 FOREIGN KEY (nomeVariedade) REFERENCES planta (nomeVariedade);
+ALTER TABLE operacao ADD CONSTRAINT FKoperacao592613 FOREIGN KEY (idCultura) REFERENCES cultura (idCultura);
+ALTER TABLE operacao ADD CONSTRAINT FKoperacao977406 FOREIGN KEY (fatorDeProducao) REFERENCES fatorDeProducao (nomeComercial);
+ALTER TABLE fichaTecnica ADD CONSTRAINT FKfichaTecni211908 FOREIGN KEY (fatorDeProducao) REFERENCES fatorDeProducao (nomeComercial);
+ALTER TABLE colheitaPrevista ADD CONSTRAINT FKcolheitaPr355475 FOREIGN KEY (idCultura) REFERENCES cultura (idCultura);
+--ALTER TABLE parcela ADD CONSTRAINT FKparcela370847 FOREIGN KEY () REFERENCES sistemaDeRega ();

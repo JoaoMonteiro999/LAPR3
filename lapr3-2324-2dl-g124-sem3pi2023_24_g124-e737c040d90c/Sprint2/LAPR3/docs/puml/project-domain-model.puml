@@ -1,0 +1,192 @@
+@startuml
+'skinparam linetype ortho
+'left to right direction
+hide circle
+hide methods
+
+title  Modelo de Domínio
+
+
+class Parcela{
+designação
+área
+}
+
+
+class Cultura{
+finalidadeDaCultura
+tipoDeCultura
+idade
+}
+
+class Planta{
+nome
+variedade
+espécie
+}
+
+class EstadoFenológico{
+estado
+}
+
+class FatorProdução{
+nomeComercial
+formulação
+tipoDeFatorProdução
+}
+
+class FichaTécnina{}
+
+class Componente{
+elemento
+quantidade
+}
+
+class Colheita{
+quantidade
+}
+
+class ColheitaPrevista{
+semanaPrevista
+quantidade
+}
+
+
+class SistemaDeRega{}
+
+class Operação{
+dataDeOperação
+}
+
+class Fertilização{
+modoDeFertilização
+}
+
+class Rega{
+quantidade
+tipoDeRega
+distribuiçãoDaRega
+}
+
+class Controlador{}
+
+class PlanoDeRega{
+tempoDeRega
+periodicidade
+}
+
+class EstaçãoMetereológica{}
+
+class SensorMeteriológico{
+designação
+}
+
+class SensorSolo{
+designação
+}
+
+class PrevisãoMeteriológica{
+humidade
+vento
+temperatura
+}
+
+class CadernoDeCampo{
+
+}
+
+class DadosMetereológicos{
+informaçãoMetereológica
+}
+
+class GestorAgrícola{}
+
+class Cliente{}
+
+class Edifício{
+area
+}
+
+class Setor{
+CaudalMaximo
+}
+
+class InstalaçãoAgricula{
+}
+
+class TipoDeEdifício{
+designação
+}
+
+class Produto {
+nome
+quantidade
+}
+
+class Cabaz {}
+
+class Hub {
+designação
+horário
+}
+
+TipoDeEdifício"1" -- "*"Edifício : define >
+
+Parcela"*" -- "1"InstalaçãoAgricula : compõem >
+Edifício"*" -- "1"InstalaçãoAgricula : compõem >
+SensorSolo"1..*" -- "1"Parcela : instalados em >
+
+
+Cultura"*" -- "1"Parcela : constituem >
+Planta"1" -- "1"Cultura : presente em >
+FatorProdução"1" -- "*"Fertilização : é utilizado  >
+EstadoFenológico "1"-- "1"Planta :caracteriza >
+
+
+FichaTécnina"1" -- "1"FatorProdução : caracteriza >
+Componente"*" -- "1"FichaTécnina : constituem >
+
+
+ColheitaPrevista"1..*" -- "1"Cultura : são efetuadas >
+GestorAgrícola"1" -- "1..*"Colheita : analisa >
+GestorAgrícola"1" -- "1..*"ColheitaPrevista : analisa >
+
+
+SistemaDeRega --|> TipoDeEdifício
+SistemaDeRega"1" -- "1..*" Rega : efetua >
+PlanoDeRega"1" -- "1" Controlador : segue <
+Controlador"1" -- "1"SistemaDeRega : gere >
+SistemaDeRega"1" -- "1..*"Parcela : presente em >
+Rega"1" -- "1..*"Setor : aplicada a >
+Setor"1" -- "1..*"Cultura : existe >
+
+
+DadosMetereológicos"1..*" -- "1"EstaçãoMetereológica : utiliza <
+PrevisãoMeteriológica"*" -- "1"EstaçãoMetereológica : realiza <
+PrevisãoMeteriológica"*" -- "1"PlanoDeRega : influenciam >
+
+
+GestorAgrícola"1" -- "1" CadernoDeCampo : regista informação >
+
+
+EstadoFenológico "1"-- "*"Operação :influencia >
+Colheita --|> Operação
+Fertilização --|> Operação
+Rega --|> Operação
+Operação"*" -- "1" CadernoDeCampo : são registadas  >
+Operação"*" -- "1" Cultura : são realizadas em >
+Operação"*" -- "1" Parcela : são realizadas em >
+
+
+DadosMetereológicos"*" -- "1"SensorMeteriológico : derivam >
+DadosMetereológicos"*" -- "1"CadernoDeCampo : são registados >
+DadosMetereológicos"*" -- "1..*"SensorSolo : derivam <
+
+
+Produto "1" -- "1" Colheita :dá origem a <
+Produto "1*" -- "1" Cabaz :constituem >
+Cabaz "*" -- "1" Hub : entregue em >
+Cliente "1" -- "1..*" Hub : visita >
+Cliente "1" -- "1..*" Cabaz :encomenda >
+
+@enduml

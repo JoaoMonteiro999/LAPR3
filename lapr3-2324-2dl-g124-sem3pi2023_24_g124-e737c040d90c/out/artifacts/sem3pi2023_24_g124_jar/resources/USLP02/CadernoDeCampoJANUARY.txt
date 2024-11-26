@@ -1,0 +1,14 @@
+Operação de rega concluida no dia '1' às '16:52' no sector 'A' de duração '1' min 
+Operação de rega concluida no dia '1' às '16:52' no sector 'CM' de duração '1' min 
+Operação de rega concluida no dia '1' às '16:52' no sector 'E' de duração '1' min 
+Operação de rega concluida no dia '1' às '16:52' no sector 'F' de duração '1' min 
+Operação de fertirrega concluida no dia '1' às '16:52' no sector 'CM' de duração '1' min, com o mix 'mix1'
+Operação de rega concluida no dia '1' às '16:53' no sector 'DM' de duração '2' min 
+Operação de rega concluida no dia '1' às '16:53' no sector 'HM' de duração '2' min 
+Operação de rega concluida no dia '1' às '16:54' no sector 'A' de duração '1' min 
+Operação de rega concluida no dia '1' às '16:54' no sector 'CM' de duração '1' min 
+Operação de rega concluida no dia '1' às '16:54' no sector 'E' de duração '1' min 
+Operação de rega concluida no dia '1' às '16:54' no sector 'F' de duração '1' min 
+Operação de fertirrega concluida no dia '1' às '16:54' no sector 'CM' de duração '1' min, com o mix 'mix1'
+Operação de rega concluida no dia '1' às '16:55' no sector 'DM' de duração '2' min 
+Operação de rega concluida no dia '1' às '16:55' no sector 'HM' de duração '2' min 

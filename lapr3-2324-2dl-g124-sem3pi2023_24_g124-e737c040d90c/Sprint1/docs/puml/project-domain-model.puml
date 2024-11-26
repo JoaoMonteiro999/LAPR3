@@ -1,0 +1,148 @@
+@startuml
+'skinparam linetype ortho
+'left to right direction
+hide circle
+hide methods
+
+title  Modelo de Domínio
+
+
+class Parcela{
+designação
+área
+}
+
+
+class Cultura{
+finalidadeDaCultura
+tipoDeCultura
+idade
+}
+
+class Planta{
+nome
+variedade
+espécie
+
+}
+
+class FatorProdução{
+nomeComercial
+formulação
+tipoDeFatorProdução
+}
+
+class FichaTécnina{}
+
+class Componente{
+elemento
+quantidade
+}
+
+class Colheita{
+quantidade
+}
+
+class ColheitaPrevista{
+semanaPrevista
+quantidade
+}
+
+
+class SistemaDeRega{}
+
+class Operação{
+dataDeOperação
+}
+
+class Fertilização{
+modoDeFertilização
+}
+
+class Rega{
+quantidade
+'tipoDeRega
+'distribuiçãoDaRega
+}
+
+'class Controlador{}
+
+'class PlanoDeRega{
+'tempoDeRega
+'periodicidade
+'}
+
+class EstaçãoMetereológica{}
+
+class SensorMeteriológico{
+designação
+}
+
+class PrevisãoMeteriológica{
+humidade
+vento
+temperatura
+}
+
+class CadernoDeCampo{
+
+}
+
+class DadosMetereológicos{
+informaçãoMetereológica
+}
+
+class GestorAgrícola{}
+
+class Edifício{
+area
+}
+
+class InstalaçãoAgricula{
+}
+
+class TipoDeEdifício{
+designação
+}
+
+
+TipoDeEdifício"1" -- "*"Edifício : define >
+
+Parcela"*" -- "1"InstalaçãoAgricula : compõem >
+Edifício"*" -- "1"InstalaçãoAgricula : compõem >
+
+Cultura"*" -- "1"Parcela : constituem >
+Planta"1" -- "1"Cultura : presente em >
+FatorProdução"1" -- "*"Fertilização : é utilizado  >
+
+
+FichaTécnina"1" -- "1"FatorProdução : caracteriza >
+Componente"*" -- "1"FichaTécnina : constituem >
+
+ColheitaPrevista"1..*" -- "1"Cultura : são efetuadas >
+GestorAgrícola"1" -- "1..*"Colheita : analisa >
+GestorAgrícola"1" -- "1..*"ColheitaPrevista : analisa >
+
+SistemaDeRega --|> TipoDeEdifício
+SistemaDeRega"1" -- "1..*" Rega : efetua >
+'PlanoDeRega"1" -- "1" Controlador : segue <
+'Controlador"1" -- "1"SistemaDeRega : gere >
+SistemaDeRega"1" -- "1..*"Parcela : encontra-se em >
+
+DadosMetereológicos"1..*" -- "1"EstaçãoMetereológica : utiliza <
+PrevisãoMeteriológica"*" -- "1"EstaçãoMetereológica : realiza <
+'PrevisãoMeteriológica"*" -- "1"PlanoDeRega : influenciam >
+
+GestorAgrícola"1" -- "1" CadernoDeCampo : regista informação >
+
+Colheita --|> Operação
+Fertilização --|> Operação
+Rega --|> Operação
+Operação"*" -- "1" CadernoDeCampo : são registadas  >
+Operação"*" -- "1" Cultura : são realizadas em >
+
+DadosMetereológicos"*" -- "1"SensorMeteriológico : derivam >
+DadosMetereológicos"*" -- "1"CadernoDeCampo : são registados >
+
+
+@enduml

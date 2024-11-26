@@ -1,0 +1,268 @@
+Dia: 1
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 2
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 3
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 4
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|HM          |2                      |mix2      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 5
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 6
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|GM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 7
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 8
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 9
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 10
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 11
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 12
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|GM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 13
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 14
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 15
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 16
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|HM          |2                      |mix2      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 17
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 18
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|GM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 19
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 20
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 21
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 22
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 23
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 24
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|GM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 25
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 26
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 27
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 28
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|HM          |2                      |mix2      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+
+Dia: 29
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+ -----------------------------------------------
+
+Dia: 30
+Hora(s): 16:51; 16:53; 16:55;
+ -----------------------------------------------
+|Sector      |Duração de rega (min)  |Mix       |
+|------------|-----------------------|----------|
+|CM          |1                      |mix1      |
+|GM          |1                      |mix1      |
+ -----------------------------------------------
+Algumas datas de fertirrega não coincidem com datas de rega, corrija o fichero de entrada!
+

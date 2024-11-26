@@ -1,0 +1,8 @@
+Day: 1 Hour: 16:51
+Sector: A, Tempo Restante: 1 min
+Sector: CM, Tempo Restante: 1 min
+Sector: DM, Tempo Restante: 2 min
+Sector: E, Tempo Restante: 1 min
+Sector: F, Tempo Restante: 1 min
+Sector: HM, Tempo Restante: 2 min
+Sector: CM, Tempo Restante: 1 min, Mix: mix1

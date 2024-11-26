@@ -1,0 +1,11 @@
+	Uma instalação agrícola é, genericamente, constituída por Edifícios e Parcelas. Os Edifícios, caracterizados por uma área, são distinguidos por um TipoDeEdificio como por exemplo, o SistemaDeRega. Esta instalação está presente em uma ou mais parcelas que são constituídas por várias Culturas.
+
+	Nas Culturas, são realizadas os vários tipo de operação como:
+
+	-Rega, esta que é aplicada em um ou mais setores, sendo estes um conjunto de Culturas, as quais são regadas em simultâneo. Estas regas são efetuadas pelo SistemaDeRega que é gerido por um Controlador e este segue um PlanoDeRega.
+
+	-Colheita, é uma operação que com o objetivo de obter os Produtos gerados por uma cultura, os resultados destas são comparados com as ColheitasPrevistas e mais tarde analisados pelo GestorAgrícula. Os Produtos gerados dão origem a cabazes que são encomendados e levantados, num Hub, por um Cliente.
+
+	-Fertilização, esta retrata a aplicação de FatoresDeProdução, são aplicados no solo ou nas plantas, por forma a melhorar e nutrir o solo e as plantas, prevenir doenças, corrigir desequilíbrios, e combater pragas e doenças. Um FatorDeProdução é caracterizado por um nome, formulação e tipoDeFatorDeProdução, para além disto, um FatorDeProdução é também caracterizado por uma FichaTécnina que contém todos os Componentes do mesmo.
+
+	A EstaçãoMetereológica é dispositivo que dá origem às PrevisõesMetereológicas, que contêm informações dos vários SensoresMetereológicos, estas influenciam os PlanosDeRega que o Controlador, dispositivo que gere o SistemaDeRega, utiliza para gerir as Regas. As EstaçôesMetereológicas utilizam DadosMetereológicos que derivam dos diversos sensores localizados pela InstalaçãoAgrícola e as suas parcelas, sendo estes SensoresMetereológicos e SensoresSolo.

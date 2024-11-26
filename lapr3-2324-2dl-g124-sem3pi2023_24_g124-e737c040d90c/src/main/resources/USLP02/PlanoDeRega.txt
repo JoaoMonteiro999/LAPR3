@@ -1,0 +1,150 @@
+Dia: 1
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 2
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 3
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 4
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 5
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 6
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 7
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 8
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 9
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 10
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 11
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 12
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 13
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 14
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 15
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 16
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 17
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 18
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 19
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 20
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 21
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 22
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 23
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 24
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 25
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 26
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 27
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 28
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 29
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
+Dia: 30
+Hora(s): 04:37;
+Sector: A, Duração da rega: 1 min
+Sector: AB, Duração da rega: 1 min
+
